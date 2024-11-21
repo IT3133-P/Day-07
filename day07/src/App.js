@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [msg, setMsg]=useState("Default");
+  const [msg, setMsg]=useState(null);
 
   const receiveMessage=(message)=>{
     setMsg(message);
